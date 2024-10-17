@@ -4,8 +4,12 @@
         Title="Largest Folder Tool" Height="192" Width="245"
         Background="#FFFF2525" Icon="/texture1_albedo.png">
     <Grid Margin="0,0,0,64" HorizontalAlignment="Center" Width="245">
-        <Button x:Name="Button1" Content="Find Largest Folder" HorizontalAlignment="Left" Margin="28,61,0,10" Width="200" Click="Button1_Click"/>
-        <TextBlock x:Name="Label1" HorizontalAlignment="Left" Margin="28,44,0,47" TextWrapping="Wrap" Width="200"/>
-        <TextBlock HorizontalAlignment="Center" Height="30" TextWrapping="Wrap" VerticalAlignment="Center" Width="156"><Run Language="en-gb" Text="Click to find your Largest file"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="193*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Button1" Content="Find Largest Folder" HorizontalAlignment="Left" Margin="28,61,0,10" Width="200" Click="Button1_Click" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="Label1" HorizontalAlignment="Left" Margin="28,44,0,47" TextWrapping="Wrap" Width="200" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Grid.ColumnSpan="2" Margin="44,0,0,0"><Run Language="en-gb" Text="Click to find your Largest file"/><LineBreak/><Run Language="en-gb"/></TextBlock>
     </Grid>
 </Window>

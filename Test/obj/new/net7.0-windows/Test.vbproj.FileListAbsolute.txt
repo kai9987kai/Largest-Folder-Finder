@@ -1,0 +1,10 @@
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.vbproj.AssemblyReference.cache
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\MainWindow.baml
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\MainWindow.g.vb
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Application.g.vb
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test_MarkupCompile.cache
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.g.resources
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.AssemblyInfoInputs.cache
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.AssemblyInfo.vb
+C:\Users\s5718749\source\repos\Test\Test\obj\new\net7.0-windows\Test.vbproj.CoreCompileInputs.cache
