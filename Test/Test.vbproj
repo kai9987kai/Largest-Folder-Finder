@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Test</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Configurations>Debug;Release;new</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mat1_albedo.png" />
+    <None Remove="texture1_albedo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="mat1_albedo.png" />
+    <Resource Include="texture1_albedo.png" />
+  </ItemGroup>
+
+</Project>
